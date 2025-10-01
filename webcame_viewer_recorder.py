@@ -53,7 +53,6 @@ def record_camera():
     recorded.release()
     cv2.destroyAllWindows()
 
-# 🧠 Input validation loop
 while True:
     op = input("Choose an option:\n1. Only open the camera.\n2. Open the camera and save the video\nEnter: ")
     if op == "1":
