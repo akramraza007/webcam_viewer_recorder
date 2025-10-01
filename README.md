@@ -16,9 +16,9 @@ This Python script allows users to either view their webcam feed live or record 
   ``` bash
   git clone https://github.com/akramraza007/webcam_viewer_recorder.git
   ```
-- 
+- Go Into the Project Folder
     ``` bash
-  cd image-annotation
+  cd webcam_viewer_recorder
   ```
 - Install dependencies using pip if not already installed:
   ``` bash
@@ -42,5 +42,6 @@ Choose an option:
 ### 🧠 Notes
 - Make sure your webcam is connected and accessible.
 - The script uses cv2.VideoCapture(0) — change the index if you have multiple cameras.
+
 
 
