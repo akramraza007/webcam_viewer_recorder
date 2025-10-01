@@ -12,10 +12,22 @@ This Python script allows users to either view their webcam feed live or record 
 
 
 # 📂 How to Use
-- Clone the repository : `git clone https://github.com/akramraza007/webcam_viewer_recorder.git`
-- `cd image-annotation`
-- Install dependencies using pip if not already installed: `pip install opencv-python`
-- Run the script and choose an option: `python webcam_viewer_recorder.py`
+- Clone the repository :
+  ``` bash
+  git clone https://github.com/akramraza007/webcam_viewer_recorder.git
+  ```
+- 
+    ``` bash
+  cd image-annotation
+  ```
+- Install dependencies using pip if not already installed:
+  ``` bash
+  pip install opencv-python
+  ```
+- Run the script and choose an option:
+  ```bash
+  python webcam_viewer_recorder.py
+  ```
 
 Choose an option:
 1. Only open the camera.
@@ -30,4 +42,5 @@ Choose an option:
 ### 🧠 Notes
 - Make sure your webcam is connected and accessible.
 - The script uses cv2.VideoCapture(0) — change the index if you have multiple cameras.
+
 
